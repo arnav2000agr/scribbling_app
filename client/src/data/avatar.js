@@ -2,7 +2,6 @@ export const hairStyles = [
   "NoHair",
   "Eyepatch",
   "Hat",
-  "Hijab",
   "Turban",
   "WinterHat1",
   "WinterHat2",

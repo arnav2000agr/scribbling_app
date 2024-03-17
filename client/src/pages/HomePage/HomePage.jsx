@@ -19,10 +19,10 @@ const HomePage = () => {
       socket.emit("game_joined")
     })
   },[])
-  const [topType, setTopType] = useState(10);
-  const [clotheType, setClotheType] = useState(0);
+  const [topType, setTopType] = useState(20);
+  const [clotheType, setClotheType] = useState(4);
   const [eyeType, setEyeType] = useState(2);
-  const [mouthType, setMouthType] = useState(0);
+  const [mouthType, setMouthType] = useState(8);
   const types = ["top", "eye", "mouth", "clothe"];
   const login = (e) => {
     e.preventDefault();

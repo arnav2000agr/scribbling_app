@@ -3,7 +3,8 @@ import { createContext, useState } from "react";
 import { io } from "socket.io-client";
 
 // const socket = io.connect("http://localhost:8000");
-const socket = io.connect("https://arnav-scribble.onrender.com");
+// const socket = io.connect("https://arnav-scribble.onrender.com");
+const socket = io.connect("http://13.233.87.239:8000");
 
 export const GameContext = createContext({
   username: "",
